@@ -1,21 +1,20 @@
-import logo from './car.svg';
+
 import './App.css';
-import NavBarLightMode from './components/Navbar/NavBarLightMode';
+import Navbar from './components/Navbar/navbar';
 import Title from './components/Text/tittle';
 import ItemListContainer from './components/container/ItemListContainer';
-import Cartwidget from './components/Navbar/Cartwidget';
+import 'bootstrap/dist/css/bootstrap.min.css' ;
+import Car from './components/Navbar/car.svg'
+
+
 
 function App() {
   return (
     <div className="App" style={{fontSize: '20px' , borderBotton: '1px solid red'}}>
-    <NavBarLightMode/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <Navbar/>
       <Title/>
       <ItemListContainer/>
         <ButtonComponent/>
-        <Cartwidget/>
-      </header>
     </div>
   );
 }

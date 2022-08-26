@@ -1,7 +1,7 @@
-function NavBarLightMode(){
+function navbar(){
     return   
     
-    
+
 }
-export default NavBarLightMode;
+export default navbar;
 

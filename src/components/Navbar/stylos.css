@@ -1,0 +1,11 @@
+.Car-svg{
+    text-align: center;
+    color: rgb(7, 7, 7);
+
+  }
+  .App{
+    background-color: rgb(216, 108, 108);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
