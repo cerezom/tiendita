@@ -9,3 +9,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .contein{
+    font-size: 25px;
+    color:rgb(6, 6, 12);
+    background-color: blanchedalmond;
+  }
+  

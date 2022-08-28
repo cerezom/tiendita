@@ -5,7 +5,7 @@ import Title from './components/Text/tittle';
 import ItemListContainer from './components/container/ItemListContainer';
 import 'bootstrap/dist/css/bootstrap.min.css' ;
 import Car from './components/Navbar/car.svg'
-
+import ItemCount from './contador/ItemCount'
 
 
 function App() {
@@ -14,7 +14,10 @@ function App() {
     <Navbar/>
       <Title/>
       <ItemListContainer/>
-        <ButtonComponent/>
+       < ButtonComponent/>
+       <ItemCount/>
+
+
     </div>
   );
 }
@@ -26,7 +29,7 @@ const car = () => {
 
 }
 
-return <button onClick={mostrarAlerta}>Click Aqui</button>
+
 }
 export default App;
 
